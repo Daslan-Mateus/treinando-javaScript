@@ -1,2 +1,2 @@
 # treinando-javaScript
-Repositório destinado para a prática dos principais conceito da linguagem javascript 
+Repositório destinado para a prática dos principais conceitos da linguagem javascript 
