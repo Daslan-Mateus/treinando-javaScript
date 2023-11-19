@@ -70,14 +70,38 @@ const hotel = {
     localizacao: 'Jaraguá do sul -SC',
     classificacao: 'Livre',
     quartosDisponiveis: [1, 2, 3, 425, 987],
-    reservar(q) {
-        this.quartosDisponiveis.forEach(element => {
-            if(element === q){
-                'quarto reservado'
-            } else{
-                'quarto indisponivel'
-            }
-        });
-    }
-
 }
+
+ 
+
+/*
+
+Na teoria dos números, um número abundante ou excessivo é aquele para o qual a soma de seus divisores próprios é maior que o próprio número. O inteiro 12 é o primeiro número abundante. Seus divisores próprios são 1, 2, 3, 4 e 6 para um total de 16 . O valor pelo qual a soma excede o número é a abundância . O número 12 tem abundância de 4 , por exemplo. Outros números abundantes iniciais são: 12, 18, 20, 24, 30, 36, 40, 42, 48, 54 etc. Existem infinitos números ímpares e pares abundantes . Como você já deve ter adivinhado, neste kata sua função pegará um número inteiro positivo h como entrada de intervalo e retornará um array/lista aninhado que conterá as seguintes informações-
+
+O maior número ímpar ou par abundante disponível nesse intervalo
+É abundância
+Exemplos
+Alguns exemplos nunca fazem mal a ninguém, certo???
+
+abundant(15)  = [[12], [4]]
+abundant(19)  = [[18], [3]]
+abundant(100) = [[100], [17]]
+abundant(999) = [[996], [360]]
+Pontas
+O problema envolve alguns números aleatórios bem grandes. Portanto, tente otimizar o desempenho do seu código tanto quanto possível. E sim, o argumento de entrada sempre será inteiro positivo. Portanto, não há necessidade de verificar lá.
+
+Boa sorte!
+
+const Test = require('@codewars/test-compat');
+
+describe("Example Tests", function(){
+  it("Simple Cases", function(){
+    Test.assertSimilar(abundant(15),[[12],[4]],'Incorrect answer');
+    Test.assertSimilar(abundant(19),[[18],[3]],'Incorrect answer');
+    Test.assertSimilar(abundant(100),[[100],[17]],'Incorrect answer');
+    Test.assertSimilar(abundant(999),[[996],[360]],'Incorrect answer');
+  });
+});
+
+
+*/
